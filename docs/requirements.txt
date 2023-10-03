@@ -46,3 +46,4 @@ xlsxwriter==1.2.1
 
 # additional sphinx-specific requirements
 sphinxcontrib-httpdomain>=1.5.0
+urllib3>=1.26.17 # not directly required, pinned by Snyk to avoid a vulnerability
