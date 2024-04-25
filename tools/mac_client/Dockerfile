@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:12.5
 LABEL maintainer "Alex Cline <alex.cline@gmail.com>"
 
 RUN apt-get update && apt-get install -y \
